@@ -1,0 +1,144 @@
+site_name: Salvium Documentation
+site_description: Detailed documentation of Salvium
+site_author: Salvium Team
+site_url: https://siko-ctrl.github.io/docs-salvium/
+
+# Repository
+repo_name: siko-ctrl/docs-salvium
+repo_url: https://github.com/siko-ctrl/docs-salvium
+edit_uri: edit/main/docs/
+
+# Configuration
+theme:
+  name: material
+  logo: assets/salvium_coin_white_transparent.svg
+  favicon: favicon/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - navigation.indexes
+    - navigation.tracking
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - header.autohide
+  palette:
+    scheme: slate
+    primary: teal
+    accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+# Navigation
+nav:
+  - Introduction: index.md
+  - Project:
+    - About: THE PROJECT/index.md
+    - Overview: THE PROJECT/What is Salvium.md
+    - Compliance: THE PROJECT/Compliance Statement.md
+    - Roadmap: THE PROJECT/Project Roadmap.md
+    - Team: THE PROJECT/Project Team and History.md
+    - Community: THE PROJECT/How to get involved.md
+    - Litepaper: THE PROJECT/Salvium Litepaper.md
+    - Getting Started: THE PROJECT/Get Started with Salvium.md
+    - Funding: THE PROJECT/Funding and token allocation.md
+    - Audits: THE PROJECT/Audits.md
+    - Treasury: THE PROJECT/Salvium Treasury Report – Q3 2024.md
+  - Technology:
+    - Architecture: THE PROTOCOL/index.md
+    - Privacy: THE PROTOCOL/About Privacy.md
+    - Transactions: THE PROTOCOL/Protocol_tx.md
+    - Async TX: THE PROTOCOL/Asynchronous Transactions (AT).md
+    - Mining: THE PROTOCOL/Mining and Emissions.md
+    - Staking: THE PROTOCOL/Staking and Yield.md
+    - Yield Calculator: THE PROTOCOL/Calculating Current Yield.md
+    - Smart Contracts: THE PROTOCOL/The Salvium Protocol and Smart Contracts.md
+    - Explorer: THE PROTOCOL/Explorer.md
+    - API:
+      - Node: THE PROTOCOL/Daemon RPC.md
+      - Wallet: THE PROTOCOL/Wallet RPC.md
+  - Wallets:
+    - Overview: WALLETS/index.md
+    - GUI Guide: WALLETS/Salvium GUI Wallet Guide.md
+    - CLI Guide: WALLETS/Salvium Wallet CLI User Guide.md
+    - Desktop Guide: WALLETS/Desktop Wallet User Guide.md
+    - Exchange Mode: WALLETS/Exchange Mode in Salvium CLI Wallet.md
+    - Antivirus: WALLETS/Antivirus and Firewall Settings.md
+    - Transfers: WALLETS/Show_transfers Colour Coding.md
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: ""
+      toc_depth: 3
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Plugins
+plugins:
+  - search
+  # - git-authors  # Temporarily disabled until files are committed
+
+# Extra
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://salvium.io
+      name: Website ↗
+    - icon: fontawesome/solid/cube
+      link: https://explorer.salvium.io
+      name: Explorer ↗
+    - icon: fontawesome/brands/github
+      link: https://github.com/salvium
+      name: GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/salvium
+      name: Discord
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/salvium
+      name: Telegram
+
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+# PWA Configuration
+  manifest: favicon/site.webmanifest
+
+extra_css:
+  - stylesheets/extra.css
