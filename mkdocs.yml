@@ -1,11 +1,11 @@
 site_name: Salvium Documentation
 site_description: Detailed documentation of Salvium
 site_author: Salvium Team
-site_url: https://siko-ctrl.github.io/docs-salvium/
+site_url: https://salvium.github.io/salvium_docs/
 
 # Repository
-repo_name: siko-ctrl/docs-salvium
-repo_url: https://github.com/siko-ctrl/docs-salvium
+repo_name: salvium/salvium_docs
+repo_url: https://github.com/salvium/salvium_docs
 edit_uri: edit/main/docs/
 
 # Configuration
