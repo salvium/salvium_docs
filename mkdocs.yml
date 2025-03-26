@@ -1,7 +1,7 @@
 site_name: Salvium Documentation
 site_description: Detailed documentation of Salvium
 site_author: Salvium Team
-site_url: https://salvium.github.io/salvium_docs/
+site_url: https://docs.salvium.io/
 
 # Repository
 repo_name: salvium/salvium_docs
