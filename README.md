@@ -52,6 +52,3 @@ Ensure your `mkdocs.yml` file is configured with the correct `site_url` and them
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-Let me know if you also want a badge for PyPI/MkDocs version, last deploy date, or anything fancy like that.
