@@ -1,4 +1,4 @@
-# Salvium Documentation
+# Salvium Docs Website
 
 This repository contains the official documentation for [Salvium](https://salvium.io), a privacy-focused cryptocurrency. It is built using [MkDocs](https://www.mkdocs.org/) with the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
 
