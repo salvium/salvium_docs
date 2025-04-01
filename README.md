@@ -1,6 +1,3 @@
-Here’s a corrected and clean single-file `README.md` block you can paste straight into your docs repo:
-
-```markdown
 # Salvium Documentation
 
 This repository contains the official documentation for [Salvium](https://salvium.io), a privacy-focused cryptocurrency. It is built using [MkDocs](https://www.mkdocs.org/) with the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
