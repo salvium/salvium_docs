@@ -6,12 +6,12 @@
 
 ## Overview
 
-SPARC (Spend Proof and Anonymized Returns for CARROT) is a cryptographic protocol designed for Salvium cryptocurrency that extends the CARROT addressing scheme. It aims to solve two critical challenges in privacy-focused cryptocurrencies:
+SPARC (Spend Proof and Anonymized Returns for CARROT) is a cryptographic protocol designed for Salvium cryptocurrency that extends the [CARROT addressing scheme](carrot.md). It aims to solve two critical challenges in privacy-focused cryptocurrencies:
 
 - It enables anonymous refunds/returns while maintaining privacy
 - It allows users to prove they control an address without revealing private keys
 
-SPARC is a key innovation that will enable Salvium to meet anti-money laundering (AML) compliance requirements while preserving core privacy features.
+SPARC is a key innovation that will enable Salvium to meet anti-money laundering (AML) compliance requirements while preserving core [privacy features](../THE%20PROTOCOL/About%20Privacy.md).
 
 ## Key Components
 
@@ -50,7 +50,7 @@ SPARC is designed to provide formal security guarantees:
 
 ## Relationship to CARROT
 
-SPARC will extend the CARROT (Cryptonote Address on Rerandomizable-RingCT-Output Transactions) addressing protocol, which provides:
+SPARC will extend the [CARROT](carrot.md) (Cryptonote Address on Rerandomizable-RingCT-Output Transactions) addressing protocol, which provides:
 
 - **Full view-only wallets**: Monitoring of both incoming and outgoing transactions
 - **Forward secrecy**: Protection against future advances in computing
@@ -103,10 +103,10 @@ Q: How does SPARC differ from Monero's approach?
 A: Monero does not currently implement a return payment system or spend authority proofs. SPARC builds on concepts originally proposed for Monero but not implemented.
 
 Q: Is SPARC's implementation open source?  
-A: Yes, when implemented, SPARC in Salvium will be fully open source and available for review in our code repository.
+A: Yes, when implemented, SPARC in Salvium will be fully open source and available for review in our [code repository](../THE%20PROJECT/How%20to%20get%20involved.md).
 
 Q: How does SPARC help with regulatory compliance?  
 A: SPARC enables users to prove they control an address without revealing private keys, satisfying AML regulatory requirements for verification while maintaining privacy.
 
 Q: Does SPARC require changes to the consensus protocol?  
-A: SPARC will build on the existing Salvium consensus protocol with additions to transaction formats and validation rules.
+A: SPARC will build on the existing Salvium consensus protocol with additions to [transaction formats](../THE%20PROTOCOL/Protocol_tx.md) and validation rules.
