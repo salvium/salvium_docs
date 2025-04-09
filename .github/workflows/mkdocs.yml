@@ -1,26 +1,17 @@
-name: Publish docs via GitHub Pages
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    name: Deploy docs
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
-
-      - name: Install dependencies
-        run: |
-          pip install mkdocs
-          pip install mkdocs-material  # If you're using Material theme
-
-      - name: Deploy MkDocs
-        run: mkdocs gh-deploy
+- name: Set up Python
+    uses: actions/setup-python@v4
+    with:
+      python-version: 3.x
+  
+  - name: Install dependencies
+    run: |
+      pip install mkdocs mkdocs-material pymdown-extensions
+  
+  - name: Configure Git
+    run: |
+      git config --global user.name 'GitHub Actions'
+      git config --global user.email 'actions@github.com'
+  
+  - name: Build and Deploy
+    run: |
+      mkdocs gh-deploy --force --clean
