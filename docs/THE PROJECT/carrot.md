@@ -1,8 +1,12 @@
 # CARROT: Cryptonote Address on Rerandomizable-RingCT-Output Transactions
 
+> **Status**: In Development
+>
+> Salvium is currently migrating to the CARROT addressing protocol. This feature is under active development and not yet fully implemented in the current release.
+
 ## Overview
 
-CARROT is an addressing protocol designed to enhance privacy and usability in Cryptonote-based cryptocurrencies. The acronym stands for Cryptonote Address on Rerandomizable-RingCT-Output Transactions. Originally proposed for Monero, CARROT introduces significant improvements to address structure, wallet functionality, and transaction privacy that Salvium leverages as a foundation for its SPARC protocol.
+CARROT is an addressing protocol designed to enhance privacy and usability in Cryptonote-based cryptocurrencies. The acronym stands for Cryptonote Address on Rerandomizable-RingCT-Output Transactions. Originally proposed for Monero, CARROT introduces significant improvements to address structure, wallet functionality, and transaction privacy that Salvium is implementing as a foundation for its SPARC protocol.
 
 ## Key Features
 
@@ -59,11 +63,24 @@ CARROT enables advanced wallet operations:
 
 ## Integration with Salvium
 
-Salvium builds on CARROT by:
+Salvium is implementing CARROT by:
 
 1. Implementing Core Addressing: Using the CARROT addressing scheme as a foundation
-2. Extending with SPARC: Adding spend proofs and anonymized returns capabilities
-3. Optimizing for Compliance: Adapting CARROT to work within regulatory frameworks while maintaining [privacy features](../THE%20PROTOCOL/About%20Privacy.md)
+2. Planning Extension with SPARC: Adding spend proofs and anonymized returns capabilities
+3. Optimizing for Compliance: Adapting CARROT to work within regulatory frameworks while maintaining privacy features
+
+## Migration Considerations
+
+> **Note**
+> 
+> Salvium is currently evaluating the migration process to CARROT. Users will need to create new wallets to access CARROT features when implemented.
+
+The migration to CARROT will involve:
+
+- New wallet generation for users who want to use CARROT features
+- Transferring funds from legacy to new CARROT-enabled wallets
+- Updated wallet software supporting the new addressing scheme
+- Backward compatibility for a transition period, allowing existing wallets to continue functioning
 
 ## Quantum Resistance Considerations
 
@@ -82,7 +99,7 @@ CARROT includes design elements with future security in mind:
 
 ## Relationship to Monero
 
-CARROT was originally proposed for implementation in Monero but has not yet been integrated into the Monero codebase. Salvium has adapted and implemented this protocol to serve as the foundation for its [privacy](../THE%20PROTOCOL/About%20Privacy.md) and [compliance features](../THE%20PROJECT/Compliance%20Statement.md).
+CARROT was originally proposed for implementation in Monero but has not yet been integrated into the Monero codebase. Salvium is adapting and implementing this protocol to serve as the foundation for its privacy and compliance features.
 
 ## Technical Documentation
 
@@ -90,8 +107,14 @@ For detailed technical specifications, including cryptographic constructions and
 
 ## FAQ
 
+Q: When will CARROT be fully implemented in Salvium?  
+A: CARROT is currently in development. Check the roadmap for the latest implementation timeline.
+
+Q: Will I need to create a new wallet when CARROT is implemented?  
+A: It's likely that users will need to create new wallets. The Salvium team is evaluating this requirement and will provide guidance before implementation.
+
 Q: Is CARROT backward compatible with existing Salvium addresses?  
-A: Yes, CARROT is designed to maintain compatibility with existing Salvium addresses while offering enhanced features for new addresses.
+A: While the network will maintain compatibility with existing addresses during a transition period, users will need to create new wallets to access and use CARROT features. Existing wallets will continue to work but won't benefit from the enhanced privacy and functionality of CARROT.
 
 Q: How does CARROT improve on traditional Cryptonote addressing?  
 A: CARROT adds full view-only wallet capabilities, forward secrecy, protection against various attacks, and support for rerandomizable transactions.
@@ -100,7 +123,7 @@ Q: Does CARROT require changes to the consensus protocol?
 A: CARROT primarily affects address formats and wallet operations rather than consensus rules, making it relatively easy to integrate.
 
 Q: How does CARROT relate to SPARC?  
-A: CARROT provides the addressing foundation that SPARC extends with spend proofs and anonymized returns capabilities.
+A: CARROT provides the addressing foundation that SPARC will extend with spend proofs and anonymized returns capabilities.
 
 Q: Is CARROT exclusive to Salvium?  
-A: No, CARROT is an open protocol originally proposed for Monero. Salvium has implemented it for its specific requirements.
+A: No, CARROT is an open protocol originally proposed for Monero. Salvium is implementing it for its specific requirements.
