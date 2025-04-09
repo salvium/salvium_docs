@@ -67,7 +67,7 @@ Salvium is implementing CARROT by:
 
 1. Implementing Core Addressing: Using the CARROT addressing scheme as a foundation
 2. Planning Extension with SPARC: Adding spend proofs and anonymized returns capabilities
-3. Optimizing for Compliance: Adapting CARROT to work within regulatory frameworks while maintaining privacy features
+3. Optimizing for Compliance: Adapting CARROT to work within regulatory frameworks while maintaining [privacy features](../THE%20PROTOCOL/About%20Privacy.md)
 
 ## Migration Considerations
 
@@ -99,7 +99,7 @@ CARROT includes design elements with future security in mind:
 
 ## Relationship to Monero
 
-CARROT was originally proposed for implementation in Monero but has not yet been integrated into the Monero codebase. Salvium is adapting and implementing this protocol to serve as the foundation for its privacy and compliance features.
+CARROT was originally proposed for implementation in Monero but has not yet been integrated into the Monero codebase. Salvium is adapting and implementing this protocol to serve as the foundation for its [privacy](../THE%20PROTOCOL/About%20Privacy.md) and [compliance features](../THE%20PROJECT/Compliance%20Statement.md).
 
 ## Technical Documentation
 
