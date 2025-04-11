@@ -132,7 +132,7 @@ extra:
       link: https://discord.gg/salvium
       name: Discord
     - icon: fontawesome/brands/telegram
-      link: https://t.me/salvium
+      link: https://t.me/salviumcommunity
       name: Telegram
 
   analytics:
