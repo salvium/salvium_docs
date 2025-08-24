@@ -14,7 +14,7 @@ It's important to note that because the reward is paid out with each block, the 
 * The current block reward
 * The total value locked (TVL) in staking
 
-As the block reward decreases over time ([with emission](https://salvium.io/salvium-knowledge-base/mining-and-emissions/)), the reward per block for stakers also adjusts accordingly. Understanding this block-based distribution is crucial for accurately estimating potential yields and making informed decisions about staking.
+As the block reward decreases over time ([with emission](Mining%20and%20Emissions.md)), the reward per block for stakers also adjusts accordingly. Understanding this block-based distribution is crucial for accurately estimating potential yields and making informed decisions about staking.
 
 ## Example: Total Yield Calculation (Past 21,600 Blocks)
 

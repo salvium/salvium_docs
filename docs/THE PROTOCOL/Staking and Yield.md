@@ -29,7 +29,7 @@ Staking in Salvium is a process where holders can lock their SAL tokens for a sp
    * Stakers can view their staking history and yield amounts in the wallet's transaction history.
    * This feature allows users to track the performance of their staking investments over time.
 
-To understand how to calculate yield, visit: [Calculating Current Yield](https://salvium.io/salvium-knowledge-base/calculating-current-yield/)
+To understand how to calculate yield, visit: [Calculating Current Yield](Calculating%20Current%20Yield.md)
 
 ## How to Start Staking:
 
