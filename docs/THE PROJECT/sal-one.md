@@ -1,76 +1,172 @@
+# **Salvium One Hard Fork – Complete Guide**
 
-## 🔑 Wallet Address Changes (Expanded for Miners & Pools)
+### **Overview**
 
-After the Salvium One hard fork at block **334750 (October 13th, 2025 ~2pm GMT)**:
+Salvium One is the most significant upgrade in our project’s history, delivering the foundation for a **compliant privacy ecosystem**. It introduces the Carrot address system, SPARC, and major improvements to privacy and compliance — laying the groundwork for private DeFi, staking, and exchange support.
 
-* Every wallet will now display **two addresses** when opened:
+The hard fork is scheduled for:
 
-  * **Legacy (CryptoNote)** address (starts with `SaLv...`)
-  * **Carrot (post-fork)** address (starts with `SC1...`)
+* **Block Height:** 334750
 
-⚠️ Only **Carrot addresses** will be valid for mining and payouts after the fork. Legacy addresses will stop working for new transactions.
+* **Date/Time:** October 13th, 2025 (Approx. 2pm GMT)
 
-### How to find your Carrot address
+* **Required Version:** v1.0.0 or higher
 
-1. **CLI Wallet v1.0.x**
+Download the latest binaries here: [GitHub Release v1.0.0](https://github.com/salvium/salvium/releases/tag/v1.0.0)
 
-   * Open your wallet with the new binary.
-   * You’ll see both addresses printed (see screenshot below).
-   * The line `Opened Carrot wallet: SC1...` is your new valid address.
-
-2. **CLI command (if not shown automatically)**
-
-   * Use:
-
-     ```
-     address 0
-     ```
-   * This will print your primary address. It will show both the old and new formats (see screenshot).
-
-3. **If using RPC**
-
-   * Starting with **v1.0.1** (next week), you can use the new `get_address` RPC call.
-   * Example request:
-
-     ```json
-     {"jsonrpc":"2.0","id":"0","method":"get_address","params":{"account_index":0}}
-     ```
-   * Response will include both legacy and Carrot addresses.
+For context, see our [Salvium One Blog Post](https://salvium.io/blog/2025/09/30/sal-one/).
 
 ---
 
-## 🛠️ Guidance for Miners
+## ** What is Salvium One?**
 
-* **Update mining config (xmrig or equivalent)** to use your **Carrot address** (`SC1...`) **before the fork height**.
-* If you continue mining with a legacy address after the fork, shares will be rejected.
-* Pools may allow you to add both old and new addresses before the fork for smoother transition.
+Salvium One is the culmination of 15 months of development, designed to deliver:
 
----
+* **Privacy-first transactions** compatible with regulatory compliance.
 
-## 🛠️ Guidance for Pools
+* **Carrot address format** – a new address system required for future features.
 
-* **Switch pool payout wallets** to Carrot format at the fork height.
-* For each miner:
+* **SPARC integration** – private, anonymised return payments.
 
-  * Collect their Carrot addresses in advance (recommended).
-  * Or flush old balances to legacy addresses before the fork to avoid stranded funds.
-* Pools should update **regex validation** to reject legacy addresses at height 334750 and only accept Carrot thereafter.
+* **Full DeFi readiness** – foundations for private tokens, DEXs, and lending protocols.
 
 ---
 
-## ❓ Updated FAQ
+## **Key Features**
 
-**Q: How do I find my Carrot address?**
-A: Open the CLI wallet v1.0.x. The new Carrot address (`SC1...`) is shown when you log in. If not, use the command `address 0`. RPC users can call `get_address` (v1.0.1+).
+### **1\. Carrot Address System**
 
-**Q: Can I keep mining with my old address after the fork?**
-A: No. Mining to legacy addresses will fail after block 334750. You must switch to your Carrot address.
+* New address prefix: `SC1...`
 
-**Q: I’m a pool operator. How do I handle unpaid balances?**
-A: You can:
+* Enables refundable transactions without revealing sender addresses.
 
-* Flush pending balances to legacy addresses before the fork, or
-* Collect new Carrot addresses from miners and map them in your DB.
+* Critical for exchange compliance and interoperability.
 
-**Q: What happens if I forget to update my mining software?**
-A: Shares submitted with legacy addresses will be rejected post-fork. Update your config to Carrot addresses as soon as possible.
+* Legacy CryptoNote addresses (`SaLv...`) become **invalid at fork**.
+
+### **2\. SPARC Integration**
+
+* Private refund mechanism for exchanges.
+
+* Allows returns of unauthorized deposits without exposing transaction history.
+
+### **3\. T-CLSAG**
+
+* Updated version of Monero’s CLSAG ring signatures.
+
+* Maintains anonymity while enabling Carrot address support.
+
+### **4\. View-Only Wallets**
+
+* Full visibility of **incoming and outgoing transactions**.
+
+* Meets compliance and audit requirements.
+
+---
+
+## **⚠️ Critical Change: Wallet Address Migration**
+
+### **What Happens at the Fork**
+
+* Your wallet will automatically generate a **Carrot address** (`SC1...`).
+
+* Your old CryptoNote address (`SaLv...`) becomes a **legacy address**.
+
+* After the fork, only Carrot addresses will be accepted for mining and payouts.
+
+Balances remain untouched. You **do not** need to move your coins — only update your software and addresses.
+
+### **How to Find Your Carrot Address**
+
+1. **CLI Wallet v1.0.0 and above**
+
+   * Open your wallet.
+
+You’ll see both the legacy and Carrot addresses displayed:
+
+ Opened legacy (CN) wallet: SaLvTyKva...  
+Opened Carrot wallet: SC1TotkUC9...
+
+*   
+2. **CLI Command**
+
+Run:
+
+ address 0
+
+*   
+  * This shows both your legacy and Carrot addresses.
+
+3. **RPC (from v1.0.1 onward)**
+
+Use the `get_address` RPC call:
+
+ {"jsonrpc":"2.0","id":"0","method":"get\_address","params":{"account\_index":0}}
+
+* 
+
+---
+
+## **🛠️ Guidance for Miners**
+
+* **Update your miner config (xmrig, etc.)** with your **Carrot address** before the fork.
+
+* If you continue mining with a legacy address after block 334750, shares will be rejected.
+
+* If supported by your pool, you may enter both old and new addresses during the pre-fork period to ensure a smooth switch.
+
+---
+
+## **🛠️ Guidance for Pools**
+
+* **Update your pool payout wallet** to a Carrot address before the fork.
+
+* **Accept Carrot addresses only** after block 334750\. Legacy addresses must be rejected.
+
+* **Manage unpaid balances**:
+
+  * Flush outstanding balances to legacy addresses before the fork, **or**
+
+  * Collect Carrot addresses from miners in advance and map `{old → new}` in your DB.
+
+* **Regex patterns for validation:**
+
+  * Legacy: `^(SaLv)[1-9A-HJ-NP-Za-km-z]{94,140}$`
+
+  * Carrot: `^(SC1)[1-9A-HJ-NP-Za-km-z]{94,140}$`
+
+---
+
+## **❓ Frequently Asked Questions**
+
+**Q: Will my balance change after the fork?**  
+ A: No. Your coins and balances remain the same. Only the wallet address format changes.
+
+**Q: Do I need to move coins before the fork?**  
+ A: No. You don’t need to move anything. Just update your wallet software.
+
+**Q: How can I find my new address?**  
+ A: Open v1.0.0+ of the CLI wallet, or run `address 0`. RPC users can call `get_address` from v1.0.1.
+
+**Q: What happens if I mine to my old address after the fork?**  
+ A: Your shares will be rejected. Pools will not accept legacy addresses post-fork.
+
+**Q: I’m a pool operator. How do I handle unpaid balances?**  
+ A: Either flush them to old addresses before the fork or collect new Carrot addresses in advance.
+
+**Q: Does this affect staking or SPARC?**  
+ A: Yes, both require Carrot addresses. Make sure your infrastructure is updated.
+
+---
+
+## **📚 Resources**
+
+* **Binaries:** [GitHub v1.0.0](https://github.com/salvium/salvium/releases/tag/v1.0.0)
+
+* **Blog Post:** [Introducing Salvium One](https://salvium.io/blog/2025/09/30/sal-one/)
+
+* **Explorer:** [explorer.salvium.io](https://explorer.salvium.io/)
+
+* **White Paper:** [Salvium One White Paper (PDF)](https://github.com/salvium/salvium_library/blob/main/papers/Salvium_One_White_Paper_v1.pdf)
+
+* **Discord:** [Join the Community](https://discord.gg/gvbyNQQ86p)  
