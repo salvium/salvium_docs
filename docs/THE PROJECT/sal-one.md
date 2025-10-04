@@ -10,7 +10,7 @@ The hard fork is scheduled for:
 * **Date/Time:** October 13th, 2025 (Approx. 2pm GMT)
 * **Required Version:** v1.0.0 or higher
 
-➡️ [Download the latest binaries](https://github.com/salvium/salvium/releases/tag/v1.0.0)
+➡️ [Download the latest binaries](https://github.com/salvium/salvium/releases/tag/v1.0.1)
 ℹ️ [Read the Salvium One Blog Post](https://salvium.io/blog/2025/09/30/sal-one/)
 
 ---
@@ -158,3 +158,4 @@ Yes. Both require Carrot addresses. Make sure your infrastructure is updated.
 ---
 
 ✅ Salvium One is not just a hard fork — it’s the beginning of a new era for private, compliant DeFi. Update your binaries, switch to your Carrot address, and be ready for October 13th, 2025.
+
