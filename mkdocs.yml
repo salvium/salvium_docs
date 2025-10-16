@@ -51,6 +51,7 @@ theme:
 # Navigation
 nav:
   - Introduction: index.md
+  - White Paper: https://github.com/salvium/salvium_library/blob/main/papers/Salvium_One_White_Paper_v1.pdf
   - Project:
     - About: THE PROJECT/index.md
     - Overview: THE PROJECT/What is Salvium.md
