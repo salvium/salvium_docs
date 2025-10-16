@@ -2,11 +2,19 @@
 
 Salvium is a privacy-focused cryptocurrency that combines advanced cryptography with user-friendly features. Our documentation will help you understand and use Salvium effectively.
 
-!!! info "📄 [Read the Salvium One White Paper](https://github.com/salvium/salvium_library/blob/main/papers/Salvium_One_White_Paper_v1.pdf)"
-    Explore the full technical design of Salvium One, including architecture and privacy protocols.
-
 ## Quick Start
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-file-pdf:{ .lg .middle } __White Paper__
+
+    ---
+    Explore the full technical design of Salvium One, including architecture and privacy protocols.
+
+    [:octicons-arrow-right-24: View White Paper (GitHub)](https://github.com/salvium/salvium_library/blob/main/papers/Salvium_One_White_Paper_v1.pdf)
+    [:octicons-arrow-right-24: Download PDF](https://github.com/salvium/salvium_library/raw/main/papers/Salvium_One_White_Paper_v1.pdf)
+
+</div>
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-rocket:{ .lg .middle } __Getting Started__
