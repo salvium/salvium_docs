@@ -1,9 +1,5 @@
 # CARROT: Cryptonote Address on Rerandomizable-RingCT-Output Transactions
 
-> **Status**: In Development
->
-> Salvium is currently migrating to the CARROT addressing protocol. This feature is under active development and not yet fully implemented in the current release.
-
 ## Overview
 
 CARROT is an addressing protocol designed to enhance privacy and usability in Cryptonote-based cryptocurrencies. The acronym stands for Cryptonote Address on Rerandomizable-RingCT-Output Transactions. Originally proposed for Monero, CARROT introduces significant improvements to address structure, wallet functionality, and transaction privacy that Salvium is implementing as a foundation for its SPARC protocol.
