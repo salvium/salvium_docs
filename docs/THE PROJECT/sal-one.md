@@ -2,16 +2,14 @@
 
 ### Overview
 
-Salvium One is the most significant upgrade in our project’s history, delivering the foundation for a **compliant privacy ecosystem**. It introduces the Carrot address system, SPARC, and major improvements to privacy and compliance — laying the groundwork for private DeFi, staking, and exchange support.
+Salvium One, the most significant upgrade in our project's history, successfully activated at block 334,750 on October 13th, 2024 at approximately 2pm GMT. This transformative hard fork has delivered the foundation for a **compliant privacy ecosystem**.
 
-The hard fork is scheduled for:
+**Current Network Status:**
+* **Fork Block:** 334,750 (Successfully mined October 13th, 2024)
+* **Current Required Version:** v1.0.5 or higher
+* **Network Status:** Fully operational with Carrot addresses active
 
-* **Block Height:** 334750
-* **Date/Time:** October 13th, 2025 (Approx. 2pm GMT)
-* **Required Version:** v1.0.0 or higher
-
-➡️ [Download the latest binaries](https://github.com/salvium/salvium/releases/tag/v1.0.1)
-ℹ️ [Read the Salvium One Blog Post](https://salvium.io/blog/2025/09/30/sal-one/)
+⚠️ **Action Required:** If you haven't upgraded yet, please update to latest version: [Download Latest Version](https://salvium.io/download)
 
 ---
 
@@ -158,4 +156,5 @@ Yes. Both require Carrot addresses. Make sure your infrastructure is updated.
 ---
 
 ✅ Salvium One is not just a hard fork — it’s the beginning of a new era for private, compliant DeFi. Update your binaries, switch to your Carrot address, and be ready for October 13th, 2025.
+
 
