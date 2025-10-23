@@ -1,9 +1,5 @@
 # SPARC: Spend Proof and Anonymized Returns for CARROT
 
-> **Status**: Planned
->
-> SPARC is a planned extension to the CARROT addressing protocol and is not yet implemented in Salvium. This document describes the conceptual design and intended functionality.
-
 ## Overview
 
 SPARC (Spend Proof and Anonymized Returns for CARROT) is a cryptographic protocol designed for Salvium cryptocurrency that extends the [CARROT addressing scheme](carrot.md). It aims to solve two critical challenges in privacy-focused cryptocurrencies:
