@@ -41,4 +41,4 @@ During launch, we partnered with Cypher Stack, renowned specialists in Monero se
 ## Accessing Audit Reports
 
 * All audit findings can be viewed on our GitHub repository.
-* To access the audits, [https://github.com/salvium/salvium/](https://github.com/salvium/salvium/)
+* To access the audits, [https://github.com/salvium/salvium_library/](https://github.com/salvium/salvium_library/).
