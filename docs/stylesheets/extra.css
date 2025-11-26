@@ -55,50 +55,6 @@
 .md-content code {
     background-color: #1e1e1e;
     color: #00bfa5;
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
-    font-size: 0.9em;
-}
-
-/* Tables */
-.md-content table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 1rem 0;
-    background-color: #1e1e1e;
-    border-radius: 4px;
-}
-
-.md-content th {
-    background-color: #242424;
-    color: #00bfa5;
-    padding: 0.75rem;
-    text-align: left;
-    border-bottom: 2px solid #2a2a2a;
-}
-
-.md-content td {
-    padding: 0.75rem;
-    border-bottom: 1px solid #2a2a2a;
-}
-
-.md-content tr:hover {
-    background-color: #242424;
-}
-
-/* Lists */
-.md-content ul,
-.md-content ol {
-    padding-left: 1.5rem;
-    color: #e0e0e0;
-}
-
-.md-content li {
-    margin: 0.5rem 0;
-}
-
-/* Blockquotes */
-.md-content blockquote {
     border-left: 4px solid #009688;
     margin: 1rem 0;
     padding: 0.5rem 1rem;
@@ -154,7 +110,7 @@
     color: var(--md-accent-fg-color) !important;
 }
 
-.md-nav__item--active > .md-nav__link {
+.md-nav__item--active>.md-nav__link {
     color: var(--md-accent-fg-color) !important;
     font-weight: 600;
 }
@@ -238,50 +194,50 @@
 }
 
 /* Status Colors - Brighter and more visible */
-.status-confirmed { 
-    background-color: rgba(0, 200, 83, 0.2); 
-    color: #00E676;
-    border: 1px solid #00C853;
-}
-
-.status-pending { 
-    background-color: rgba(255, 171, 0, 0.2); 
-    color: #FFD740;
-    border: 1px solid #FFC400;
-}
-
-.status-failed { 
-    background-color: rgba(255, 82, 82, 0.2); 
-    color: #FF5252;
-    border: 1px solid #FF1744;
-}
-
-/* Transaction Type Colors */
-.tx-type-out { 
-    background-color: rgba(0, 151, 167, 0.2);
-    color: #00BCD4;
-    border: 1px solid #0097A7;
-}
-
-.tx-type-in { 
+.status-confirmed {
     background-color: rgba(0, 200, 83, 0.2);
     color: #00E676;
     border: 1px solid #00C853;
 }
 
-.tx-type-stake { 
-    background-color: rgba(156, 39, 176, 0.2);
-    color: #E040FB;
-    border: 1px solid #9C27B0;
-}
-
-.tx-type-yield { 
+.status-pending {
     background-color: rgba(255, 171, 0, 0.2);
     color: #FFD740;
     border: 1px solid #FFC400;
 }
 
-.tx-type-burn { 
+.status-failed {
+    background-color: rgba(255, 82, 82, 0.2);
+    color: #FF5252;
+    border: 1px solid #FF1744;
+}
+
+/* Transaction Type Colors */
+.tx-type-out {
+    background-color: rgba(0, 151, 167, 0.2);
+    color: #00BCD4;
+    border: 1px solid #0097A7;
+}
+
+.tx-type-in {
+    background-color: rgba(0, 200, 83, 0.2);
+    color: #00E676;
+    border: 1px solid #00C853;
+}
+
+.tx-type-stake {
+    background-color: rgba(156, 39, 176, 0.2);
+    color: #E040FB;
+    border: 1px solid #9C27B0;
+}
+
+.tx-type-yield {
+    background-color: rgba(255, 171, 0, 0.2);
+    color: #FFD740;
+    border: 1px solid #FFC400;
+}
+
+.tx-type-burn {
     background-color: rgba(244, 67, 54, 0.2);
     color: #FF5252;
     border: 1px solid #D32F2F;
@@ -368,19 +324,19 @@ body {
     .md-content {
         padding: 1rem;
     }
-    
+
     .md-content h1 {
         font-size: 1.75rem;
     }
-    
+
     .md-content h2 {
         font-size: 1.25rem;
     }
-    
+
     .md-content h3 {
         font-size: 1.1rem;
     }
-    
+
     .md-content table {
         display: block;
         overflow-x: auto;
