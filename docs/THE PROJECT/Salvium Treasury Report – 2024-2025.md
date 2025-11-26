@@ -1,52 +1,50 @@
-# **Salvium Treasury Report – Interim Update (Q4 2025 YTD)**
+# Salvium Treasury Report – Interim Update (Q4 2025 YTD)
 
 This interim report provides a complete summary of treasury activity from **Q4 2024 to Q4 2025 (up to 26 November 2025)**. Regular Treasury Reports were paused during the audit period, so this document provides the missing transparency ahead of the full audited report due after Q4 closes.
 
 During the audit preparation, monthly treasury unlocks were paused. This pause was resolved in **Q3 2025**, and unlocks resumed according to the updated schedule.
+## Quarterly Breakdown
 
-## All numbers below come directly from the treasury ledger and are shown as **whole SAL1 values**.
+All numbers below come directly from the treasury ledger and are shown as **whole SAL1 values**.
+### Q4 2024
 
-# **Quarterly Breakdown**
-
-## **Q4 2024**
-
-### **IN**
+#### IN
 
 | Category | Value (SAL) |
 | :---- | :---- |
 | Unlocks | 1,950,000 (Oct, Nov, Dec) |
 
-### **OUT**
+#### OUT
 
 | Category | Value (SAL) |
 | :---- | :---- |
 | Development | 500,000 |
-| Exchanges \\+ MM | 585,000 |
+| Exchanges \+ MM | 585,000 |
 | Operations | 366 |
 
 ---
 
-## **Q1 2025**
+### Q1 2025
 
-### **IN**
+#### IN SAL
 
 | Category | Value (SAL) |
 | :---- | :---- |
 | Unlocks | 1,300,000 (Jan , Feb) |
 
-### **OUT**
+#### OUT SAL
 
 | Category | Value (SAL) |
 | :---- | :---- |
 | Operations | 3,490,255 (Audit) |
 
-### **IN**
+#### IN SAL1
 
 | Category | Value (SAL1) |
 | :---- | :---- |
 | Operations | 3,490,255 (Audit) |
 
-### **OUT**
+#### OUT SAL1
 
 | Category | Value (SAL1) |
 | :---- | :---- |
@@ -55,17 +53,17 @@ During the audit preparation, monthly treasury unlocks were paused. This pause w
 
 ---
 
-## **Q2 2025**
+### Q2 2025
 
 Unlocks were paused during this period.
 
-### **IN**
+#### IN
 
 | Category | Value (SAL1) |
 | :---- | :---- |
 | Unlocks | 0 |
 
-### **OUT**
+#### OUT
 
 | Category | Value (SAL1) |
 | :---- | :---- |
@@ -75,17 +73,17 @@ Unlocks were paused during this period.
 
 ---
 
-## **Q3 2025**
+### Q3 2025
 
 *(Unlocks still paused, but audit work completed. Unlock schedule resumed from the Salvium One HF)*
 
-### **IN**
+#### IN
 
 | Category | Value (SAL1) |
 | :---- | :---- |
 | Unlocks | 0 |
 
-### **OUT**
+#### OUT
 
 | Category | Value (SAL1) |
 | :---- | :---- |
@@ -95,9 +93,9 @@ Unlocks were paused during this period.
 
 ---
 
-## **Q4 2025 (Year-to-Date; incomplete)**
+### Q4 2025 (Year-to-Date; incomplete)
 
-### **IN**
+#### IN
 
 | Category | Value (SAL1) |
 | :---- | :---- |
@@ -105,7 +103,7 @@ Unlocks were paused during this period.
 
 *(The first 1.3M “catch-up unlock” issued after the Salvium One hard fork.)*
 
-### **OUT**
+#### OUT
 
 | Category | Value (SAL1) |
 | :---- | :---- |
@@ -115,7 +113,7 @@ Unlocks were paused during this period.
 
 ---
 
-# **Governance Wallet \& Unlock Replacement Plan**
+## Governance Wallet & Unlock Replacement Plan
 
 *(Community clarification published 1 November 2025)*
 
@@ -126,7 +124,7 @@ To clarify how unlocks were paused and replaced during the audit process:
 * The governance wallet had last received an audited inflow in **February 2025**, meaning the project was effectively **8 months behind** on its unlock schedule by the time Salvium One went live.
 * To correct this backlog, the remaining payments were doubled from **650,000 SAL1 → 1.3M SAL1** for 8 cycles.
 
-### **Why 1.3M × 8 (=10.4M) instead of minting 5.2M at once?**
+### Why 1.3M × 8 (=10.4M) instead of minting 5.2M at once?
 
 * Minting 5.2M SAL1 at HF was technically possible (representing 8 missed unlocks × 650k),
 * But the team chose the **8 × 1.3M structure** instead because it:
@@ -135,17 +133,17 @@ To clarify how unlocks were paused and replaced during the audit process:
   * avoids a large one-time mint,
   * provides smoother operational funding during the Salvium One transition.
 
-### **Key point**
+### Key point
 
 **The total amount of treasury funding remains identical to what was originally planned. No additional treasury advantage has been created.**
 
-### **Circulating Supply**
+### Circulating Supply
 
 Legacy SAL locked in the governance wallet is **not part of circulating supply**. Its SAL1 replacements are minted under the new audited rules.
 
 ---
 
-# **Closing Summary**
+## Closing Summary
 
 * Treasury operations continued through the audit pause, but unlock income was interrupted.
 * The Salvium One unlock correction restores the intended treasury funding profile without increasing the total coins allocated to operations.
