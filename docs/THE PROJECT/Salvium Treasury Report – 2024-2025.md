@@ -148,4 +148,4 @@ Legacy SAL locked in the governance wallet is **not part of circulating supply**
 * Treasury operations continued through the audit pause, but unlock income was interrupted.
 * The Salvium One unlock correction restores the intended treasury funding profile without increasing the total coins allocated to operations.
 * This interim report fills the gap created during the audit and hard-fork remediation period.
-* A full, Treasury Report for **Q4 2025** will be published once the quarter closes and the circulating supply audit finalises.
+* A full, Treasury Report for **Q4 2025** will be published once the quarter closes.
