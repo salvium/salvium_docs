@@ -2,10 +2,10 @@
 
 ### Overview
 
-Salvium One, the most significant upgrade in our project's history, successfully activated at block 334,750 on October 13th, 2024 at approximately 2pm GMT. This transformative hard fork has delivered the foundation for a **compliant privacy ecosystem**.
+Salvium One, the most significant upgrade in our project's history, successfully activated at block 334,750 on October 13th, 2025 at approximately 2pm GMT. This transformative hard fork has delivered the foundation for a **compliant privacy ecosystem**.
 
 **Current Network Status:**
-* **Fork Block:** 334,750 (Successfully mined October 13th, 2024)
+* **Fork Block:** 334,750 (Successfully mined October 13th, 2025)
 * **Current Required Version:** v1.0.5 or higher
 * **Network Status:** Fully operational with Carrot addresses active
 
@@ -156,5 +156,6 @@ Yes. Both require Carrot addresses. Make sure your infrastructure is updated.
 ---
 
 ✅ Salvium One is not just a hard fork — it’s the beginning of a new era for private, compliant DeFi. Update your binaries, switch to your Carrot address, and be ready for October 13th, 2025.
+
 
 
