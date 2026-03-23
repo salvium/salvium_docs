@@ -88,6 +88,17 @@ nav:
     - Exchange Mode: WALLETS/Exchange Mode in Salvium CLI Wallet.md
     - Antivirus: WALLETS/Antivirus and Firewall Settings.md
     - Transfers: WALLETS/Show_transfers Colour Coding.md
+  - Tokens & RWA:
+    - Overview: TOKENS/index.md
+    - Token Protocol: TOKENS/token-protocol.md
+    - Token Types: TOKENS/token-types.md
+    - Getting Started: TOKENS/getting-started.md
+    - Metadata Schema: TOKENS/metadata-schema.md
+    - Meta Generator: TOKENS/meta-generator.md
+    - SDK: TOKENS/sdk.md
+    - Middleware: TOKENS/middleware.md
+    - Demo UI: TOKENS/demo-ui.md
+    - RPC Reference: TOKENS/rpc-reference.md
 
 # Extensions
 markdown_extensions:
