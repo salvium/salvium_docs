@@ -35,7 +35,7 @@ Like Monero, Salvium implements a tail emission to ensure long-term mining incen
 
 ### Tail Emission Details:
 * **Activation**: Once the maximum supply is reached
-* **Rate**: 3 SAL per block
+* **Rate**: 0.3 SAL per minute (~0.6 SAL per block at the 120 second block time)
 
 ### Purpose of Tail Emissions:
 1. **Sustainable Mining Incentives**: Ensures miners continue to secure the network even after the initial supply is mined.
