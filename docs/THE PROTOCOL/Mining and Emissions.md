@@ -43,8 +43,13 @@ Like Monero, Salvium implements a tail emission to ensure long-term mining incen
 3. **Inflation Control**: Introduces a predictable, low rate of inflation to counteract lost coins and maintain economic activity.
 
 ## Block Reward Structure:
-* **Initial Phase**: 80% to miners, 20% to stakers
-* **Future Phase**: 100% to miners (once DeFi features are operational, stakers will receive a share of system fees)
+* **Up to hard fork 11 (block 464,999)**: 80% to miners, 20% to stakers.
+* **From hard fork 11 (block 465,000, around 13 April 2026)**: 60% to miners, 25% to the treasury, 15% to stakers.
+  The treasury share is taken first, and the staker share is then calculated from the remainder
+  (20% of 75% = 15% of the total block reward). The 25% treasury share is funded from the block
+  reward itself and is additional to the pre-mine allocation described under
+  [Funding and Token Allocation](../THE%20PROJECT/Funding%20and%20token%20allocation.md).
+  A later phase in which miners receive 100% of the block reward has not been implemented.
 
 ## Implications for Miners and Users:
 * Miners can expect consistent rewards even in the long term, encouraging sustained participation.

@@ -1,6 +1,6 @@
 # Funding and Token Allocation
 
-The project is funded by a 12.01% pre-mine, which is partially locked. These funds will be allocated to build and operations. Miners and stakers will earn 88% of the total supply, plus tail emissions.
+The project is funded by a pre-mine of 22,100,000 SAL (11.98% of the 184.4m supply), which is partially locked. These funds will be allocated to build and operations. Miners and stakers earn the remaining supply through block rewards, plus tail emissions. From hard fork 11 a 25% treasury share is also deducted from each block reward (see below).
 
 ![](https://salvium.io/wp-content/uploads/2024/07/allocation-chart.png)
 
@@ -18,4 +18,9 @@ The long-term success and sustainability of the Salvium protocol rely on continu
 
 ### 3. Block Rewards - 87.99%
 
-The block reward is initially split between stakers (20%) and miners (80%). Once DeFi features are operational, the miners will receive 100% of the block reward, as stakers will receive a share of system fees.
+The block reward was initially split between stakers (20%) and miners (80%). From hard fork 11
+(block 465,000, around 13 April 2026) the split is **60% to miners, 25% to the treasury and 15% to
+stakers**: the treasury share is taken first and the staker share is then 20% of the remainder
+(20% of 75% = 15% of the total block reward). The 25% treasury share is an additional, ongoing
+source of treasury funding on top of the pre-mine allocation above; the previously described phase
+in which miners receive 100% of the block reward has not been implemented.

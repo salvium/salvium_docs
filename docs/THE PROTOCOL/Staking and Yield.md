@@ -13,7 +13,9 @@ Staking in Salvium is a process where holders can lock their SAL tokens for a sp
    * When they unlock, the initial stake plus yield will be minted in the wallet.
 
 2. **Reward Structure**:
-   * The total staking reward is 20% of each block reward.
+   * Up to hard fork 11, the total staking reward was 20% of each block reward.
+   * From hard fork 11 (block 465,000, around 13 April 2026), 25% of each block reward is paid to the
+     treasury first and the staking reward is 20% of what remains, i.e. **15% of the total block reward**.
    * This reward is distributed proportionally among all active stakers.
    * The more SAL you stake, the higher your proportion of the reward.
 
